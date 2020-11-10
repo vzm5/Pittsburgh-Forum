@@ -1,0 +1,45 @@
+table{
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: whitesmoke;
+}
+body{
+    background-color: snow;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #2d302e;
+}
+a:link{
+    color: black;
+}
+a:hover{
+    color: darkslateblue;
+}
+.title{
+    background-color: lightgray;
+}
+.title a{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+}
+.skyline{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 10% 40%;
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
+}
+#main-content{
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: snow;
+}
+label{
+    position: 1;
+}
